@@ -24,8 +24,7 @@ public abstract class Menu {
     @Column
     private int calorie;
 
-    @ManyToMany
-    private List<Ordine> ordini = new ArrayList<>();
+
 
 
 }

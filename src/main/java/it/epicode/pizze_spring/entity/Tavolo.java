@@ -12,6 +12,9 @@ public class Tavolo {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
+    @Column
+    private int numero;
+
     @Column(name = "numero_coperti_max", nullable = false)
     private int numeroCopertiMax;
 

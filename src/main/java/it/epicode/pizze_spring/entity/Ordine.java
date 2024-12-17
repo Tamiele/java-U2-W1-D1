@@ -36,7 +36,7 @@ public class Ordine {
     private Tavolo tavolo;
 
     @ManyToMany
-    private List<Menu> elementiMenu = new ArrayList<>();
+    private List<Menu> elementiMenu;
 
 
 }
